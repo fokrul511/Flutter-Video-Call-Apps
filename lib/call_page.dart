@@ -1,14 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
+import 'dart:math' as math;
 
+final String userId = math.Random().nextInt(10000).toString();
 class CallPage extends StatelessWidget {
-  final String userId;
   final String userName;
   final String callID;
 
   const CallPage({
     super.key,
-    required this.callID, required this.userId, required this.userName,
+    required this.callID,
+    required this.userName,
   });
 
   @override

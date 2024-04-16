@@ -12,7 +12,7 @@
 
 
     <application
-        android:label="flutter_video_call_apps"
+        android:label="Free Video Call"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
